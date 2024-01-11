@@ -148,3 +148,40 @@ button:hover{
 .readMoreTitle{
     font-size: 40px;
 }
+
+/* Анимации */
+.slideInFromLeft {
+    animation: 3s slideInFromLeft;
+  } 
+.slideInFromRight {
+    animation: 3s slideInFromRight;
+  }
+.slideInFromBottom{
+    animation: 2s slideInFromBottom;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* Анимации */
